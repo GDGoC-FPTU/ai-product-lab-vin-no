@@ -1,9 +1,11 @@
 # 01 — Problem Scan & Quick Cards (Bài cá nhân)
 
 > **Lab 02: AI Product Scoping — Vin Smart Future (Vingroup)**
->
-> Tài liệu này thể hiện tư duy tìm kiếm và đánh giá bài toán cá nhân trước khi thảo luận nhóm, bao gồm Phase 1 (SCAN) và Phase 2 (QUICK-ASSESS).
+> **Họ và Tên:** *Vũ Minh Duy*
+> **MSSV:** *2A202600806*
 
+
+> **Lab 02: AI Product Scoping — Vin Smart Future (Vingroup)**
 ---
 
 # 🔍 Phase 1 — SCAN: Tìm kiếm cơ hội (Cá nhân)
@@ -16,7 +18,7 @@ Sử dụng **4 Lenses** để quét qua hoạt động vận hành của các c
 3. **AI có thể tốt hơn (AI-upgrade):** Dịch vụ khách hàng hiện tại còn chậm hoặc phản hồi rập khuôn.
 4. **Pain từ người khác (Stakeholder Pain):** Bottleneck khiến khách hàng hoặc nhân viên thực địa phàn nàn.
 
-### 📝 List bài toán của tôi:
+### 📝 List bài toán:
 
 | # | Subsidiary (Công ty thành viên) | Lens | Mô tả ngắn bài toán |
 |---|----------------------------------|------|---------------------|
