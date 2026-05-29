@@ -1,2 +1,7 @@
 # Environment Dependencies
-# List all required python packages here.
+# Đọc API key từ file .env
+python-dotenv
+
+# (Tùy chọn — chỉ cần khi muốn gọi Gemini THẬT, không bắt buộc cho autograder)
+# Cài thủ công: pip install google-genai
+# google-genai
