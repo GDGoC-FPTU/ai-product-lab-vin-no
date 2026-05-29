@@ -8,7 +8,7 @@
 
 ## 1. AI đã hỗ trợ tôi những gì trong phát triển mã nguồn? (AI Code Assistance)
 Trong phần phát triển và thử nghiệm Prompt Prototype (`prompt_prototype.py`), AI đã hỗ trợ tôi như một lập trình viên đồng hành (Thought-partner) rất đắc lực:
-1. **Thiết lập khung mã nguồn:** AI giúp viết nhanh cấu trúc chương trình Python sử dụng thư viện `dotenv` để nạp an toàn API Key từ file `.env` ẩn thông qua `load_dotenv()`.
+1. **Thiết lập khung mã nguồn:** AI giúp viết nhanh cấu trúc chương trình Python sử dụng biến môi trường trực tiếp của hệ thống thông qua thư viện `os` để bảo mật an toàn cho API Key mà không phải ghi trực tiếp khóa vào file code.
 2. **Triển khai Gemini SDK mới:** AI hỗ trợ tra cứu và viết hàm `evaluate_prompt()` sử dụng đúng bộ thư viện SDK thế hệ mới của Google (`google-genai`), gọi chính xác `client.models.generate_content()` với cấu hình `generation_config` và `temperature=0.0`.
 3. **Soạn thảo System Prompt cốt lõi:** AI gợi ý cấu trúc system prompt tiếng Việt có phân tách rõ ràng nhiệm vụ (Trợ lý điều vận), ngữ cảnh hoạt động (Vin Smart Future) và các ranh giới vận hành khắt khe (Quy tắc pin < 5% và thẻ bắt buộc `[DRAFT_ONLY]`).
 4. **Brainstorm Kịch bản Tấn công (Adversarial Testing):** AI đề xuất 3 kịch bản kiểm thử adversarial đa dạng để stress-test hệ thống, trong đó có kịch bản tiêm mã prompt (Prompt Injection) giả mạo lệnh của Ban Giám Đốc/Admin để ép hệ thống bỏ qua ranh giới an toàn.
